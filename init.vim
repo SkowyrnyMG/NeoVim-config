@@ -1,9 +1,11 @@
-set nocompatible
-filetype off
+" Base confing
+source ~/AppData/Local/nvim/general/settings.vim
+source ~/AppData/Local/nvim/vim-plug/plugins.vim
 
-call plug#begin('~/AppData/Local/nvim/plugged')
-Plug 'morhetz/gruvbox'
-Plug 'tpope/vim-fugitive'
-call plug#end()
+" Themes
+source ~/AppData/Local/nvim/themes/gruvbox.vim
 
-colorscheme gruvbox
+" Plugins config
+source ~/AppData/Local/nvim/plug-config/coc.vim
+source ~/AppData/Local/nvim/plug-config/nerd-tree.vim
+
