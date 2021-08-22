@@ -1,7 +1,7 @@
 filetype off
 filetype plugin indent on
 syntax on
-set colorcolumn=80
+" set colorcolumn=80
 set background=dark
 highlight ColorColumn ctermbg=0 guibg=lightgray
 set nocompatible
@@ -13,6 +13,7 @@ set noerrorbells
 set tabstop=2 softtabstop=0 expandtab shiftwidth=2 smarttab
 set expandtab
 set smartindent
+" set termguicolors
 
 " Remove Ctrl z windows freeze bug
 if has('win32')

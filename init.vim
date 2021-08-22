@@ -4,6 +4,7 @@ source ~/AppData/Local/nvim/vim-plug/plugins.vim
 
 " Themes
 source ~/AppData/Local/nvim/themes/gruvbox.vim
+source ~/AppData/Local/nvim/themes/NeoSolarized.vim
 
 " Plugins config
 source ~/AppData/Local/nvim/plug-config/coc.vim
