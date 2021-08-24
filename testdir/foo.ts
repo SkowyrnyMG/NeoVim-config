@@ -1,8 +1,9 @@
 export default function Foo(a: number): number {
-  return a + 2;
+	return a + 2;
 }
 
 
 export type User = {
-  firstName: string;
+	firstName: string;
+	lastName: string;
 }

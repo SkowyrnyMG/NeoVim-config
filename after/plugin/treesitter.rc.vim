@@ -2,7 +2,7 @@ if !exists('g:loaded_nvim_treesitter')
   finish
 endif
 
-lua <<EOF
+lua << EOF
 require 'nvim-treesitter.configs'.setup {
   highlight = {
     enable = true,
@@ -13,7 +13,11 @@ require 'nvim-treesitter.configs'.setup {
     disable = {},
   },
   ensure_installed = {
-    "tsx",
   },
 }
+
+local parser_config = require "nvim-treesitter.parsers".get_parser_configs()
+parser_config.tsx.used_by = { "javascript", "typescript.tsx" }
+
 EOF
+

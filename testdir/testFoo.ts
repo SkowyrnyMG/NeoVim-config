@@ -1,3 +1,11 @@
-import Foo from './foo';
+import Foo, { User } from './foo';
 
-Foo()
+const u: User = {
+  firstName: 'Matthew',
+  lastName: 'Gruźla',
+}
+
+u.lastName
+u.firstName
+Foo(4)
+
